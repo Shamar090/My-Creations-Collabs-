@@ -1,0 +1,22 @@
+Coin box class
+keep track of user money
+add money
+remove money from purchase
+return change
+
+
+Inventory class
+Store the list of products
+remove product after purchase
+display all product
+
+B2|Cowtales|1.50|Candy 5
+B3|Wonka Bar|1.50|Candy 0
+B4|Crunchie|1.75|Candy 3
+C1|Cola|1.25|Drink 2
+
+
+Menu class
+display the options to user
+
+
