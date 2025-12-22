@@ -1,0 +1,21 @@
+CREATE USER tenmo_owner
+WITH PASSWORD 'postgres';
+
+GRANT ALL
+ON ALL TABLES IN SCHEMA public
+TO tenmo_owner;
+
+GRANT ALL
+ON ALL SEQUENCES IN SCHEMA public
+TO tenmo_owner;
+
+CREATE USER postgres
+WITH PASSWORD 'postgres1';
+
+GRANT SELECT, INSERT, UPDATE, DELETE
+ON ALL TABLES IN SCHEMA public
+TO tenmo_postgres;
+
+GRANT USAGE, SELECT
+ON ALL SEQUENCES IN SCHEMA public
+TO tenmo_postgres;
